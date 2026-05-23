@@ -2,6 +2,12 @@
 
 set -ouex pipefail
 
+## System apps
+dnf -y install libvirt virt-manager qemu-kvm 
+
+# User apps
+dnf -y install mpv vlc gimp krita kdenlive audacity libreoffice brave
+
 ### Install packages
 
 # Packages can be installed from any enabled yum repo on the image.
