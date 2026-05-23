@@ -6,7 +6,7 @@ set -ouex pipefail
 dnf -y install libvirt virt-manager qemu-kvm 
 
 # User apps
-dnf -y install mpv vlc gimp krita kdenlive audacity libreoffice brave
+dnf -y install mpv vlc gimp krita kdenlive audacity 
 
 ### Install packages
 
